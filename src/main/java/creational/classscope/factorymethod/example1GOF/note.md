@@ -1,0 +1,9 @@
+- Factory methods lets a class defer instantiation to subclasses.
+- Let the subclasses decide which classes to instantiate.
+- AKA virtual constructor.
+- Applicability: Use factory method when 
+  - A class can't anticipate the class of objects it must create.
+  - A class wants it's subclassses to specify the objects it creates
+- Benefit:
+  - Provides hooks for subclasses
+  - Connects parallel class hierarchies.
