@@ -33,3 +33,7 @@ Discovering the design patterns in GOF way
 ### Prototype
 - Let's assume you have an object which is very expensive to create(The cached result of an AI model, A object with a tcp connection and some metadata, an object containing the response of a REST API etc) and the software requires a new instance of the object. In this scenario, we can use prototype design pattern which demonstrates how to create a copy of an existing object. It can be shallow copy or deep copy depending on the use case and can be tackled at implementation level. Java Object.clone() method and Cloneable interface is an example.
 ![](assets/prototype-gof.jpeg)
+
+### Builder
+![](assets/builder-gof.jpeg)
+`It separates the construction of a complex object from its representation so that the same construction processes can create different representations.` - GOF
